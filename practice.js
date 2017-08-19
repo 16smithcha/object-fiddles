@@ -5,6 +5,11 @@
 
   //Code here
 
+var me = {
+    name: 'Chase',
+    age: 20
+}
+alert(me.name);
 
 
 
@@ -19,7 +24,14 @@
 
   //Code here
 
-
+var favoriteThings = {
+  band: "Death Grips",
+  food: "Stew",
+  person: "Chanda",
+  book: "Ranger's Apprentice",
+  movie: "Super Troopers",
+  holiday: "Halloween"
+}
 
 
 
@@ -29,16 +41,16 @@
 
   //Code here
 
-
-
+favoriteThings.car = "Mitsubishi Evolution V MR"
+favoriteThings.brand = "Lakai"
 
 
 //Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 
   //Code here
 
-
-
+favoriteThings.food = "Chicken Nuggets"
+favoriteThings.book = "Harry Potter"
 
 
 //NEXT PROBLEM
@@ -57,6 +69,10 @@ that is named color, with the value being the color of your backpack.
 
   //Code here
 
+var backPack = {
+
+}
+var item = "firstPocket";
 
 
 
@@ -66,7 +82,7 @@ that is named color, with the value being the color of your backpack.
 
   //Code here
 
- 
+ alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -76,7 +92,7 @@ Instead, console.log your whole backPack object and then check out the console.
 
   //Code here
 
-
+console.log(backPack);
 
 
 
@@ -98,7 +114,7 @@ var user2 = {
 
   //Code Here
 
-
+user2.username = "tyler.mcginnis@devmounta.in"
 
 
 
@@ -120,7 +136,9 @@ var user2 = {
 
   //Code Here
 
+var methodCollection = {
 
+}
 
 
 /*
@@ -131,8 +149,12 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 
   //Code Here
 
-
-
+methodCollection.alertHello() {
+  alert(hello);
+}
+methodCollection.logHello() {
+  console.log(hello);
+}
 
 
 //Now call your alertHello and logHello methods.
